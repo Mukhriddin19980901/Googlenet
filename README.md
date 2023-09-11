@@ -1,6 +1,6 @@
 # Googlenet - Inception_model_1
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/googlnet1.png" width="700" height="400" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/googlnet1.png" width="1000" height="500" />
 
 
 
