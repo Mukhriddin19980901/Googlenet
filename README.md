@@ -1,6 +1,6 @@
 # Googlenet - Inception_model_1
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/inception_definition.png" width="600" height="600" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/inception_definition.png" width="1000" height="600" />
 
 
 The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using **TensorFlow/Keras**. This model is designed for ***image classification*** tasks and is structured using various **Inception** modules. It also includes two classifier branches (class_1 and class_2) for ***multi-branch classification***. Here's a breakdown of the code:
@@ -44,7 +44,9 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 
 
+
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/tube.png' width='600' height='600' />
+
 
 
 
