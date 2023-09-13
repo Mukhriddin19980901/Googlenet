@@ -1,7 +1,6 @@
 # Googlenet - Inception_model_1
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/googlnet1.png" width="1000" height="500" />
-
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/inception_definition.png" width="600" height="600" />
 
 
 The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using **TensorFlow/Keras**. This model is designed for ***image classification*** tasks and is structured using various **Inception** modules. It also includes two classifier branches (class_1 and class_2) for ***multi-branch classification***. Here's a breakdown of the code:
@@ -9,6 +8,9 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 **1.Model Initialization**: The GoogleNet_2 class is initialized with the input shape and the number of output classes (classes). It also defines the name of the model.
 
 **2.Model Architecture**:
+
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/googlnet1.png" width="1000" height="500" />
+
 
 -The model starts with a series of convolutional, batch normalization, and ReLU layers to process the input data.
 
@@ -26,9 +28,24 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 -inception_model: The main model that produces the final output.
 
+
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Inception_module%2C_na%C4%B1ve_version.jpg' width='600' height='600' />
+
+
 -class_1: A classifier model connected to one of the Inception stages (inception_4a).
 
 -class_2: A classifier model connected to another Inception stage (inception_4d).
+
+
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/xYZlf.png' width='600' height='600' />
+
+
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/tube.png' width='600' height='600' />
+
+
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Auxil.png' width='600' height='600' />
+
+
 
 -**call** Method: The call method specifies how data should flow through the model. It takes an input tensor x and passes it through the ***inception_model, class_1,*** and ***class_2***, returning the outputs of each.
 
