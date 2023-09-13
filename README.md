@@ -29,7 +29,9 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 -inception_model: The main model that produces the final output.
 
 
+
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Inception_module%2C_na%C4%B1ve_version.jpg' width='600' height='600' />
+
 
 
 -class_1: A classifier model connected to one of the Inception stages (inception_4a).
@@ -37,13 +39,17 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 -class_2: A classifier model connected to another Inception stage (inception_4d).
 
 
+
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/xYZlf.png' width='600' height='600' />
+
 
 
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/tube.png' width='600' height='600' />
 
 
+
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Auxil.png' width='600' height='600' />
+
 
 
 
