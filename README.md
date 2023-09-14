@@ -30,7 +30,7 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 
 
-<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Inception_module%2C_na%C4%B1ve_version.jpg' width='600' height='600' />
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/nception-module-of-GoogLeNet-This-figure-is-from-the-original-paper-10.png' width='600' height='600' />
 
 
 
