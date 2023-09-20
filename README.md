@@ -1,6 +1,6 @@
 # Googlenet - Inception_model_1
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/inception_definition.png" width="1000" height="600" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/inception_definition.png" width="1000" height="600" />
 
 
 The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using **TensorFlow/Keras**. This model is designed for ***image classification*** tasks and is structured using various **Inception** modules. It also includes two classifier branches (class_1 and class_2) for ***multi-branch classification***. Here's a breakdown of the code:
@@ -9,7 +9,7 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 **2.Model Architecture**:
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/googlnet1.png" width="1000" height="500" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/googlnet1.png" width="1000" height="500" />
 
 
 -The model starts with a series of convolutional, batch normalization, and ReLU layers to process the input data.
@@ -30,7 +30,7 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 
 
-<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/nception-module-of-GoogLeNet-This-figure-is-from-the-original-paper-10.png' width='600' height='600' />
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/nception-module-of-GoogLeNet-This-figure-is-from-the-original-paper-10.png' width='600' height='600' />
 
 
 
@@ -40,10 +40,10 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 
 
-<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/xYZlf.png' width='600' height='600' />
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/xYZlf.png' width='600' height='600' />
 
 
-<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/Auxilary.png' width='1400' height='1400' />
+<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/Auxilary.png' width='1400' height='1400' />
 
 
 -**call** Method: The call method specifies how data should flow through the model. It takes an input tensor x and passes it through the ***inception_model, class_1,*** and ***class_2***, returning the outputs of each.
@@ -63,7 +63,7 @@ function and **optimizer**.Our data labels are of type ***'uint16'***, so we've 
    
 **6**.I trained the model for 10 epochs to save time, but you have the flexibility to adjust the number of epochs to reduce loss and improve accuracy. During the initial phases of the training session, you'll notice a significant drop in both ***loss*** and ***validation loss***. However, as training progresses, the difference becomes less pronounced. On the other hand, training ***accuracy*** dropped a little bit at first but remained unchanged till the last with small flactuations.but test metrics steadily increase after the second **epoch**.
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/losses_inc.png" width="600" height="600" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/losses_inc.png" width="600" height="600" />
 
-<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/accuracy.png" width="600" height="600" />
+<img src="https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/accuracy.png" width="600" height="600" />
 
