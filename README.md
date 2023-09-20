@@ -38,12 +38,7 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 -class_2: A classifier model connected to another Inception stage (inception_4d).
 
-
-
 <img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/xYZlf.png' width='600' height='600' />
-
-
-<img src='https://github.com/Mukhriddin19980901/Googlenet/blob/main/images/Auxil.png' width='1400' height='1400' />
 
 
 -**call** Method: The call method specifies how data should flow through the model. It takes an input tensor x and passes it through the ***inception_model, class_1,*** and ***class_2***, returning the outputs of each.
