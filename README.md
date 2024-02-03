@@ -49,7 +49,7 @@ The code defines a custom **GoogleNet**-like model called **GoogleNet_2** using 
 
 -The class_1 output, which is a classification result based on one of the Inception stages.
 
--The class_2 output, which is another classification result based on a different Inception stage.
+-The class_2 output, which is another classification result based on a different Inception stage. 
 
    Overall, this code defines a complex neural network architecture that combines features from different Inception stages and provides multiple classification results. Keep in mind that configuring and training this model will require specifying a loss function, optimizer, and dataset, as well as conducting the training process.
 
